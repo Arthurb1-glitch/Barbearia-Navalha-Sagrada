@@ -1,0 +1,74 @@
+#topo{
+    background-color:darkolivegreen;
+    color:antiquewhite;
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
+}
+body {
+
+    background-color:beige;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:antiquewhite;
+    margin: 0;
+    padding: 0;
+    border: 4px solid darkolivegreen;
+}.secao{
+    background-color:gray;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    border: 4px solid darkolivegreen;
+}
+#imagem{
+    text-align: center;
+    display:block;
+    margin: 20px auto;
+    width: 60%;
+    border: 4px solid darkolivegreen;
+    border-radius: 15px; 
+} h1{
+    color:antiquewhite;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+} h2{
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+}
+#habilidades ul {
+    list-style:circle;
+    padding: 0;
+}
+#habilidades ul::before{
+    content:✔️;
+    margin-right: 8px;
+} 
+#tabela-horarios{
+    margin:auto;
+    width: 90%;
+    border-collapse: collapse;
+    text-align: center;
+}
+#tabela-horarios th {
+    background-color:darkolivegreen;
+    color: black;
+    padding: 10px;
+}
+#tabela-horarios td{
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+#rodape{
+    background-color: darkolivegreen;
+    color: #faebd7;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
